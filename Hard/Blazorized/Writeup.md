@@ -20,7 +20,7 @@ At first nothing interesting, only at the bottom we find the site was made with 
 But first let's run a ffuf for subdomains
 
 
-![ffuf](https://github.com/user-attachments/assets/8cdb5877-bda3-4ccc-97e9-0f125d50860a)
+![image](https://github.com/user-attachments/assets/31ca6252-cbac-48fc-95c7-0e88e4244b4c)
 
 
 We get a hit on admin.blazorized.htb, adding it to /etc/hosts we find a login page
@@ -29,7 +29,7 @@ Now it's a good idea to take a look at the dll files and what info they can give
 
 Taking a look at the files that begin with Blazorized we see an interesting file only generated in the check_update endpoint
 
-![helpers](https://github.com/user-attachments/assets/d74904a2-67ea-4b1d-9028-e5180c200abb)
+![image](https://github.com/user-attachments/assets/1a934bab-7625-4e43-af23-4acc724717ae)
 
 Dowloading it with
 

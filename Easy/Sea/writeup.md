@@ -52,4 +52,14 @@ A poc of the CVE can be found here
 ```
 https://github.com/insomnia-jacob/CVE-2023-41425?tab=readme-ov-file
 ```
+Hopefully the admin will click the link and you'll get a shell.
+Next, simply look for the database.js file and get a password hash.
 
+Use mode 3200 to crack it on hashcat with following command
+```
+hashcat /usr/share/wordlist/rockyou.txt hash -m 3200
+```
+
+There's only user amay under the home folder. Since this is a easy machine we can use the password mychemicalromance to log in via ssh and get the user flag.
+
+### Root tomorrow

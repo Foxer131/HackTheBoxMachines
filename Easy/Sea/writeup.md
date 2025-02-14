@@ -60,6 +60,6 @@ Use mode 3200 to crack it on hashcat with following command
 hashcat /usr/share/wordlist/rockyou.txt hash -m 3200
 ```
 
-There's only user amay under the home folder. Since this is a easy machine we can use the password mychemicalromance to log in via ssh and get the user flag.
+There's only user amay under the home folder. Since this is a easy machine we can use the password **mychemicalromance** to log in via ssh and get the user flag.
 
 ### Root tomorrow
